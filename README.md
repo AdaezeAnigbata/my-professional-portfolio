@@ -51,7 +51,7 @@ I love building websites that are **interactive, polished, and functional**. Her
 ## 🚀 Live Portfolio
 
 Check it out here:  
-👉 [Adaeze Anigbata Portfolio](https://yourusername.github.io/Adaeze-Anigbata/)
+👉 [Adaeze Anigbata Portfolio]( https://adaezeanigbata.github.io/my-professional-portfolio/)
 
 ---
 
