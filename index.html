@@ -1,136 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adaeze Anigbata | Frontend Developer Portfolio</title>
     <!-- Use Inter font for a clean, modern look -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="port.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="port.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <header class="header">
-        <nav class="nav-bar">
-            <h1 class="logo">Adaeze Anigbata</h1>
-            <!-- The button is outside the menu but referenced by JS -->
-            <button class="nav-toggle-btn" id="nav-toggle">MENU</button>
-            <ul class="nav-links" id="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="nav-bar">
+        <h1 class="logo">Adaeze Anigbata</h1>
+        <!-- The button is outside the menu but referenced by JS -->
+        <button class="nav-toggle-btn" id="nav-toggle">MENU</button>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="Profile" class="Profile">
-            <img src="image/prof.jpeg" 
-                 alt="Adaeze Anigbata Profile Picture" 
-                 class="profile-img"
-                 onerror="this.onerror=null; this.src='https://placehold.co/250x250/006D77/E29578?text=Profile';"
+      <section id="Profile" class="Profile">
+        <img
+          src="image/prof.jpeg"
+          alt="Adaeze Anigbata Profile Picture"
+          class="profile-img"
+          onerror="this.onerror=null; this.src='https://placehold.co/250x250/006D77/E29578?text=Profile';"
+        />
+        <div class="intro">
+          <h2 class="greeting">Hi, I'm Adaeze Anigbata</h2>
+          <h2 class="tagline">
+            Frontend Developer | Dedicated to Building Accessible, Beautiful and
+            Clean Web Experiences.
+          </h2>
+
+          <div class="links">
+            <a href="#projects" class="button button-primary">View Projects</a>
+            <a
+              href="AdaezeAnigbataResume (1).pdf"
+              target="_blank"
+              class="button button-secondary"
+              >View Resume</a
             >
-            <div class="intro">
-                <h2 class="greeting">Hi, I'm Adaeze Anigbata</h2>
-                <h2 class="tagline">Frontend Developer | Dedicated to Building Accessible, Beautiful and Clean Web Experiences.</h2>
-                
-                <div class="links">
-                    <a href="#projects" class="button button-primary">View Projects</a>
-                    <a href="AdaezeAnigbataResume (1).pdf" target="_blank" class="button button-secondary">View Resume</a>
-                </div>
-                
-                <div class="social-links">
-                    <!-- Updated classes for button consistency -->
-                    <a href="https://github.com/AdaezeAnigbata" target="_blank" class="button button-social">GitHub</a>
-                    <a href="www.linkedin.com/in/adaeze-anigbata-5ab202294" target="_blank" class="button button-social">LinkedIn</a>
-                </div>
+          </div>
+
+          <div class="social-links">
+            <!-- Updated classes for button consistency -->
+            <a
+              href="https://github.com/AdaezeAnigbata"
+              target="_blank"
+              class="button button-social"
+              >GitHub</a
+            >
+            <a
+              href="www.linkedin.com/in/adaeze-anigbata-5ab202294"
+              target="_blank"
+              class="button button-social"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+          I am an enthusiastic Junior Frontend Developer currently focused on
+          mastering Vanilla JavaScript and modern CSS layout. My technical
+          foundation is strong, built upon core programming concepts learned
+          through C and Python basics.
+        </p>
+        <p>
+          I specialize in Semantic HTML, 100% responsive design (Grid/Flexbox),
+          and accessibility-first development.
+        </p>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+
+        <div class="projects-grid-container">
+          <article class="project-card">
+            <h3>Kilimanjaro Restaurant Site (In Progress)</h3>
+            <p>
+              The implementation of a responsive, multi-page site structure
+              developed during a 31-day coding challenge, focusing on complex
+              CSS Grid layouts.
+            </p>
+            <ul>
+              <li>
+                Focus: Semantic HTML and advanced CSS Grid/Flexbox layout.
+              </li>
+              <li>Tools: Vanilla JavaScript, Git/GitHub.</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://adaezeanigbata.github.io/Kilimanjaro-website/"
+                target="_blank"
+                class="btn-live"
+                >View Live Site</a
+              >
+              <a
+                href="https://github.com/AdaezeAnigbata/Kilimanjaro-website"
+                target="_blank"
+                class="btn-repo"
+                >View Code</a
+              >
             </div>
-        </section>
+          </article>
 
-        <section id="about" class="about-section">
-            <h2>About Me</h2>
-            <p>I am an enthusiastic Junior Frontend Developer currently focused on mastering Vanilla JavaScript and modern CSS layout. My technical foundation is strong, built upon core programming concepts learned through C and Python basics.</p>
-            <p>I specialize in Semantic HTML, 100% responsive design (Grid/Flexbox), and accessibility-first development.</p>
-        </section>
-
-        <section id="projects" class="projects-section">
-            <h2>My Projects</h2>
-
-            <div class="projects-grid-container">
-
-                <article class="project-card">
-                    <h3>Kilimanjaro Restaurant Site (In Progress)</h3>
-                    <p>The implementation of a responsive, multi-page site structure developed during a 31-day coding challenge, focusing on complex CSS Grid layouts.</p>
-                    <ul>
-                        <li>Focus: Semantic HTML and advanced CSS Grid/Flexbox layout.</li>
-                        <li>Tools: Vanilla JavaScript, Git/GitHub.</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://adaezeanigbata.github.io/Kilimanjaro-website/" target="_blank" class="btn-live">View Live Site</a>
-                        <a href="https://github.com/AdaezeAnigbata/Kilimanjaro-website" target="_blank" class="btn-repo">View Code</a>
-                    </div>
-                </article>
-
-                <article class="project-card"> 
-                    <h3>Portfolio Website</h3>
-                    <p>This portfolio website showcases my skills, creativity, and commitment to accessible and clean web development practices.</p>
-                    <ul>
-                        <li>Focus: Fully responsive design and maintainable structure.</li>
-                        <li>Tools: HTML5, CSS3, JavaScript.</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="#Profile" class="btn-live">View Live Site (You are here!)</a>
-                        <a href="https://github.com/AdaezeAnigbata/portfolio-repo-link" target="_blank" class="btn-repo">View Code</a>
-                    </div>
-                </article>
-                
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+              This portfolio website showcases my skills, creativity, and
+              commitment to accessible and clean web development practices.
+            </p>
+            <ul>
+              <li>
+                Focus: Fully responsive design and maintainable structure.
+              </li>
+              <li>Tools: HTML5, CSS3, JavaScript.</li>
+            </ul>
+            <div class="project-links">
+              <a href="#Profile" class="btn-live"
+                >View Live Site (You are here!)</a
+              >
+              <a
+                href="https://github.com/AdaezeAnigbata/portfolio-repo-link"
+                target="_blank"
+                class="btn-repo"
+                >View Code</a
+              >
             </div>
-        </section>
+          </article>
+        </div>
+      </section>
 
-        <section id="skills" class="skills-section">
-            <h3>My Toolkit</h3>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h4>Core Frontend</h4>
-                    <ul>
-                        <li>HTML5 (Semantic)</li>
-                        <li>CSS3 (Grid/Flexbox)</li>
-                        <li>JavaScript (ES6+)</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h4>Foundational Languages</h4>
-                    <ul>
-                        <li>C (Basics)</li>
-                        <li>Python (Basics)</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h4>Tools & Practices</h4>
-                    <ul>
-                        <li>Git / GitHub</li>
-                        <li>Responsiveness</li>
-                        <li>Accessibility (A11Y)</li>
-                        <li>CLI (Linux Foundation)</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <section id="skills" class="skills-section">
+        <h3>My Toolkit</h3>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Core Frontend</h4>
+            <ul>
+              <li>HTML5 (Semantic)</li>
+              <li>CSS3 (Grid/Flexbox)</li>
+              <li>JavaScript (ES6+)</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4>Foundational Languages</h4>
+            <ul>
+              <li>C (Basics)</li>
+              <li>Python (Basics)</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h4>Tools & Practices</h4>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>Responsiveness</li>
+              <li>Accessibility (A11Y)</li>
+              <li>CLI (Linux Foundation)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-        <section id="contact" class="contact-section">
-            <h3>Let's Connect</h3>
-            <p>I'm currently seeking new opportunities and challenges. Feel free to reach out!</p>
-            <a href="mailto:adatori36@gmail.com" class="btn-primary">Send Me an Email</a>
-        </section>
+      <section id="contact" class="contact-section">
+        <h3>Let's Connect</h3>
+        <p>
+          I'm currently seeking new opportunities and challenges. Feel free to
+          reach out!
+        </p>
+        <a href="mailto:adatori36@gmail.com" class="btn-primary"
+          >Send Me an Email</a
+        >
+      </section>
     </main>
 
     <footer class="footer">
-        <p>&copy; 2025 Adaeze Anigbata. Built with clean HTML and CSS.</p>
+      <p>&copy; 2025 Adaeze Anigbata. Built with clean HTML and CSS.</p>
     </footer>
 
     <!--JAVASCRIPT FOR MOBILE MENU -->
     <script src="portfolio_script.js"></script>
-</body>
+  </body>
 </html>
