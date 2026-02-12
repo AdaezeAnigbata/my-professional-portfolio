@@ -1,0 +1,27 @@
+/*2. MIXINS (Reusable Tools) */
+
+// Import variables so we can use them inside mixins
+@use "variables" as *;
+
+// Centers content perfectly (Flexbox)
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Standard Card Styling (Used in Projects & Skills)
+@mixin card-style {
+  background: $color-card;
+  border-radius: $radius;
+  padding: 2rem;
+  box-shadow: $shadow-sm;
+  border: 1px solid rgba($color-primary, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: $shadow-md;
+    border-color: $color-secondary;
+  }
+}

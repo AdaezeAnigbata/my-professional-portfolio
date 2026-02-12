@@ -1,0 +1,18 @@
+/* 1. VARIABLES (Design Tokens)*/
+
+// --- Color Palette ---
+$color-primary: #006d77; // Deep Teal (Brand)
+$color-secondary: #e29578; // Dusty Rose (Accent)
+$color-bg: #fff8f0; // Soft Cream (Background)
+$color-card: #ffffff; // Pure White (Cards)
+$color-text: #2e2e2e; // Charcoal (Main Text)
+$color-text-light: #555555; // Grey (Secondary Text)
+$color-dark: #1a1e26; // Navy (Footer/Nav)
+
+// --- Dimensions & Effects ---
+$shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.05);
+$shadow-md: 0 10px 20px rgba(0, 0, 0, 0.1);
+$radius: 12px;
+
+// --- Typography ---
+$font-main: "Inter", sans-serif;
